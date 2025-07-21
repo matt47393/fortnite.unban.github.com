@@ -1,155 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Fortnite: Ultimate Guide</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap CSS CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      background: linear-gradient(120deg,#1e3c72,#2a5298,#ffb347,#ffcc33);
-      font-family: 'Segoe UI',Arial,sans-serif;
-    }
-    .navbar {
-      background-color:#181818!important;
-    }
-    .nav-link, .navbar-brand {
-      color:#ffcc33!important;
-      font-weight:bold;
-    }
-    h1, h2, h3 {
-      color:#fff!important;
-    }
-    .section-bg {
-      background-color:rgba(23, 23, 61, 0.88);
-      border-radius:18px;
-      padding:32px;
-      margin-bottom:32px;
-      box-shadow:0 6px 16px rgba(0,0,0,0.14);
-    }
-    .feature-icon {
-      font-size:3rem;
-      color:#ffcc33;
-      margin-bottom:12px;
-    }
-    .btn-custom {
-      background-color:#1e3c72;
-      color:#fff;
-      border-radius:30px;
-      padding:10px 32px;
-      font-weight:bold;
-      transition:0.3s;
-    }
-    .btn-custom:hover {
-      background:#ffcc33;
-      color:#181818;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortnite Central</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #90caf9 0%, #f3e5f5 100%);
+            min-height: 100vh;
+        }
+        .navbar {
+            background: #039be5;
+        }
+        .section-title {
+            color: #512da8;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .card {
+            box-shadow: 0 4px 16px rgba(3, 155, 229, 0.08);
+            border: none;
+        }
+        .footer {
+            background: #039be5;
+            color: #fff;
+            padding: 10px 0;
+        }
+        .nav-link {
+            color: #fff !important;
+            font-weight: 500;
+        }
+        .gradient-section {
+            background: linear-gradient(90deg, #fffde7 0%, #b3e5fc 100%);
+            border-radius: 10px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 <body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Fortnite Guide</a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fs-3 fw-bold" href="#">Fortnite Central</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
-          <li class="nav-item"><a class="nav-link" href="#modes">Game Modes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#intro">Intro</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gameplay">Gameplay</a></li>
           <li class="nav-item"><a class="nav-link" href="#tips">Tips</a></li>
-          <li class="nav-item"><a class="nav-link" href="#updates">Latest Updates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#updates">Updates</a></li>
           <li class="nav-item"><a class="nav-link" href="#community">Community</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Page Content -->
-  <div class="container py-4">
+  <!-- MAIN CONTENT -->
+  <div class="container py-5">
 
-    <!-- 1. Overview -->
-    <section id="overview" class="section-bg">
-      <h2><span class="feature-icon">🗺</span> What is Fortnite?</h2>
-      <p>
-        <strong>Fortnite</strong> is a massively popular online battle royale game developed by Epic Games. Players from around the world compete by dropping onto an island, gathering resources and weapons, building structures for defense, and battling it out to be the last person or team standing. With vibrant graphics, regular updates, and creative modes, Fortnite has become a cultural phenomenon in the gaming world.
+    <!-- Section 1: Intro -->
+    <section id="intro" class="gradient-section">
+      <h2 class="section-title mb-3">What is Fortnite?</h2>
+      <p class="fs-5">
+        Fortnite is a vibrant, fast-paced Battle Royale game developed by Epic Games. Players compete alone or in teams, building structures and battling across a colorful island to be the last one standing. With continuous updates, creative modes, and ever-changing content, Fortnite remains one of the world’s most popular games.
       </p>
-      <ul>
-        <li>Released: 2017</li>
-        <li>Platforms: PC, PlayStation, Xbox, Switch, Mobile</li>
-        <li>Genres: Battle Royale, Creative Sandbox</li>
-        <li>Players: Solo, Duos, Squads & Special Modes</li>
+    </section>
+
+    <!-- Section 2: Gameplay -->
+    <section id="gameplay" class="gradient-section">
+      <h2 class="section-title mb-3">Core Gameplay</h2>
+      <ul class="fs-5">
+        <li><strong>Battle Royale:</strong> Drop onto the island, collect weapons, and fight to survive as the play zone shrinks.</li>
+        <li><strong>Creative Mode:</strong> Build and share your own worlds and games with unlimited resources.</li>
+        <li><strong>Zero Build:</strong> Focus on combat without building structures.</li>
+        <li><strong>Regular Events:</strong> Participate in live concerts, crossover events, and themed tournaments.</li>
       </ul>
     </section>
 
-    <!-- 2. Game Modes -->
-    <section id="modes" class="section-bg">
-      <h2><span class="feature-icon">🎯</span> Game Modes</h2>
-      <div class="row gy-3">
-        <div class="col-md-6">
-          <h4>Battle Royale</h4>
-          <p>Classic 100-player PvP mode where the last player or team remaining wins. Gather loot, eliminate opponents, and stay inside the shrinking storm circle!</p>
-        </div>
-        <div class="col-md-6">
-          <h4>Creative</h4>
-          <p>Unleash your creativity by building your own islands, games, and experiences. Invite friends and share your world.</p>
-        </div>
-        <div class="col-md-6">
-          <h4>Zero Build</h4>
-          <p>Play without the building mechanic and focus strictly on shooting and movement. Great for players who prefer combat.</p>
-        </div>
-        <div class="col-md-6">
-          <h4>Limited Time Modes (LTMs)</h4>
-          <p>Seasonal, rotating modes offering new rules, unusual weapons, or wild twists—like Team Rumble, Prop Hunt, and more.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- 3. Tips to Get Better -->
-    <section id="tips" class="section-bg">
-      <h2><span class="feature-icon">💡</span> Tips to Excel</h2>
-      <ol>
-        <li><strong>Master building</strong> — Quick walls and ramps offer cover and high ground advantages.</li>
-        <li><strong>Hot drop smartly</strong> — Drop near loot-rich areas but watch for heavy activity.</li>
-        <li><strong>Edit structures</strong> — Fast edits allow you to surprise your enemies and escape sticky situations.</li>
-        <li><strong>Resource management</strong> — Always have enough wood, brick, and metal before a fight.</li>
-        <li><strong>Stay aware</strong> — Use headphones to hear footsteps and gunshots.</li>
-        <li><strong>Practice aim</strong> — Use Fortnite’s creative maps or aim trainers for improvement.</li>
+    <!-- Section 3: Tips -->
+    <section id="tips" class="gradient-section">
+      <h2 class="section-title mb-3">Top Tips for Beginners</h2>
+      <ol class="fs-5">
+        <li>Always stay in motion to avoid becoming an easy target.</li>
+        <li>Master both shooting and building for a tactical advantage.</li>
+        <li>Use headphones to detect enemy footsteps and chests.</li>
+        <li>Experiment with different weapons to find your preferred loadout.</li>
+        <li>Play with friends to improve teamwork and strategy.</li>
       </ol>
-      <a href="#community" class="btn btn-custom mt-2">Join Our Tutorial Community</a>
     </section>
 
-    <!-- 4. Latest Updates -->
-    <section id="updates" class="section-bg">
-      <h2><span class="feature-icon">🚀</span> Latest Updates</h2>
-      <ul>
-        <li><strong>New Season Events:</strong> Each new season brings a fresh theme, map changes, new cosmetics, and weapons.</li>
-        <li><strong>Partnerships:</strong> Exclusive characters and items from Marvel, DC, Star Wars, and more are now part of the game.</li>
-        <li><strong>Ranked Mode:</strong> Earn your spot among the best with Fortnite’s competitive ranked playlists.</li>
-      </ul>
-      <div class="alert alert-info mt-3" role="alert">
-        <strong>Tip:</strong> Check the in-game 'News' tab for real-time update info!
+    <!-- Section 4: Updates -->
+    <section id="updates" class="gradient-section">
+      <h2 class="section-title mb-3">Recent Updates</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card p-3">
+            <h5 class="mb-1">New Season Launch</h5>
+            <p>
+              Chapter 5 introduces brand-new weapons, map locations, and exciting battle pass skins. Seasonal events continue to shake up gameplay with fresh challenges.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card p-3">
+            <h5 class="mb-1">Collaborations & Skins</h5>
+            <p>
+              Recent collaborations include pop culture icons and exclusive in-game cosmetics, keeping the Fortnite world dynamic and fun.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- 5. Community & Esports -->
-    <section id="community" class="section-bg">
-      <h2><span class="feature-icon">🌐</span> Community & Esports</h2>
-      <p>
-        Fortnite boasts one of the most passionate gaming communities. Join online tournaments, watch pro streamers, or participate in special in-game events. Whether you’re looking for friends to play with or want to compete at the highest level, Fortnite’s community offers a place to belong.
+    <!-- Section 5: Community -->
+    <section id="community" class="gradient-section">
+      <h2 class="section-title mb-3">Join the Fortnite Community</h2>
+      <p class="fs-5">
+        Connect with millions of Fortnite fans worldwide:
       </p>
-      <ul>
-        <li>Official Forums & Discord</li>
-        <li>Weekly tournaments for all skill levels</li>
-        <li>Follow top streamers and YouTube creators for meta tips</li>
-        <li>Share your own tutorials and guides!</li>
+      <ul class="fs-5">
+        <li>Share your gameplay clips and tutorials on YouTube and Twitch.</li>
+        <li>Join discussions on official <a href="https://www.epicgames.com/fortnite/forums" target="_blank" rel="noopener">forums</a> and Reddit.</li>
+        <li>Follow Fortnite’s social channels for news, contests, and updates.</li>
       </ul>
     </section>
   </div>
 
-  <!-- Bootstrap Bundle JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <p>&copy; 2025 Fortnite Central • For gaming tutorials & fans.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
